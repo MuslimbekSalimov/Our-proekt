@@ -1,12 +1,14 @@
 .header {
     padding-top: 5px;
     background-color: #FFF;
+    padding-bottom: 10px;
 }
 
 .header__ul {
     display: flex;
     align-items: center;
-    gap: 106px;
+    // gap: 106px;
+    justify-content: space-around;
     text-align: end;
 }
 
@@ -24,6 +26,18 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    cursor: pointer;
+
+    &:hover {
+        color: #FFBD54; 
+        transition: all 0.4s ease;
+    }
+
+    &:focus {
+        opacity: 0.5;
+    }
+
+
 }
 
 .nav__item {
@@ -39,6 +53,14 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
+    &:hover {
+        opacity: 0.8;
+    }
+
+    &:focus {
+        opacity: 0.5;
+    }
 }
 
 .header__info1 {
@@ -47,9 +69,104 @@
     justify-content: space-between;
 }
 
+.button__div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .button {
     display: flex;
     align-items: center;
     background-color: #FFF;
     border: none;
+}
+
+.btn {
+    background-color: #FFF;
+    border: none;
+    display: none;
+}
+
+.btn__menu {
+    display: none;
+}
+
+.btn__exit {
+    display: none;
+}
+
+.button--button {
+    display: none;
+}
+
+@media only screen and (max-width:1108px) {
+    .header {
+        padding-top: 20px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .btn {
+        display: block;
+    }
+
+    .btn__menu {
+        display: block;
+    }
+
+    .menu__exit {
+        display: none;
+    }
+
+    .exit__menu {
+        display: block;
+    }
+
+    .nav__blok {
+        display: block;
+        width: 50%;
+        height: 80%;
+        background-color: #FFBD54;
+        top: 100px;
+        right: 20px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 33px;
+        padding-right: 30px;
+        position: absolute;
+        animation: navv;
+
+        @keyframes navv {
+            from {
+                transform: translate(100%,50px);
+                opacity: 0;
+            }
+        
+            to {
+                transform: translate(0);
+                opacity: 1;
+            }
+            
+        }
+    }
+}
+
+@media only screen and (max-width:950px) {
+    .header__info {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:400px) {
+    .button--button {
+        display: block;
+        border: none;
+        background-color: #FFF;
+        border-radius: 4px ;
+    }
 }

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/house.svg" type="image/x-icon">
     <link rel="stylesheet" href="./main/main.min.css">
     <title>Document</title>
 </head>
@@ -43,14 +44,14 @@
                      width="178" height="87">
                 </a>
 
-                <ul class="nav">
+                <ul class="nav ">
                     <li class="nav__item">
                         <img class="nav__img" src="./img/fish.svg" alt="fish">
                         <a class="nav__heading" href="#">Главная</a>
                     </li>
 
                     <li class="nav__item">
-                        <a class="nav__heading" href="#">О Клинике</a>
+                        <a class="nav__heading" href="#">O Клинике</a>
                     </li>
 
                     <li class="nav__item">
@@ -68,16 +69,47 @@
                     <li class="nav__item">
                         <a class="nav__heading" href="#">Контакты</a>
                     </li>
+
+                    <button class="button--button">
+                        <img class="button__img" src="./img/pet.svg" 
+                        alt="pet" width="28" height="27">
+                        Задать вопрос
+                    </button>
                 </ul>
 
+              <div class="button__div">
                 <button class="button">
                     <img class="button__img" src="./img/pet.svg" 
                     alt="pet" width="28" height="27">
                     Задать вопрос
                 </button>
+
+                <button class="btn">
+                    <img class="btn__menu " src="./img/menu.svg"
+                       alt="menu" width="24" height="24">
+                     <img class="btn__exit " src="./img/exit.svg" alt="exit" 
+                       width="24" height="24">
+                </button>
+              </div>
             </div>
         </div>
     </header>
+
+    <main class="main">
+        <section class="hero">
+            <div class="container">
+                <div class="hero__info">
+                  <div class="hero__info1">
+                    <h1 class="heading">Мы заботимся o <span class="hero__span">ваших питомцах!</span></h1>
+                    <p class="hero__text">Вам и Вашему любимцу множество услуг по диагностике, профилактике заболеваний по лечению и уходу за Вашими животными. Профессионалы работающие в нашей клинике сделают все для того, чтобы быстро, эффективно и максимально безболезненно выполнить любие процедуры, которые необходимы Вашему домашнему любимцу.</p>
+                    <button class="hero__button">Наши услуги</button>
+                  </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./js/main.js"></script>
     
 </body>
 </html>

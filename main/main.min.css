@@ -1,6 +1,7 @@
 .container {
-  max-width: 1250px;
+  max-width: 1350px;
   width: 100%;
+  padding: 0px 20px;
   margin: 0px auto;
 }
 
@@ -85,12 +86,13 @@ img {
 .header {
   padding-top: 5px;
   background-color: #FFF;
+  padding-bottom: 10px;
 }
 
 .header__ul {
   display: flex;
   align-items: center;
-  gap: 106px;
+  justify-content: space-around;
   text-align: end;
 }
 
@@ -107,6 +109,14 @@ img {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  cursor: pointer;
+}
+.text:hover {
+  color: #FFBD54;
+  transition: all 0.4s ease;
+}
+.text:focus {
+  opacity: 0.5;
 }
 
 .nav__item {
@@ -123,6 +133,12 @@ img {
   font-weight: 700;
   line-height: normal;
 }
+.nav__heading:hover {
+  opacity: 0.8;
+}
+.nav__heading:focus {
+  opacity: 0.5;
+}
 
 .header__info1 {
   display: flex;
@@ -130,9 +146,153 @@ img {
   justify-content: space-between;
 }
 
+.button__div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .button {
   display: flex;
   align-items: center;
   background-color: #FFF;
   border: none;
+}
+
+.btn {
+  background-color: #FFF;
+  border: none;
+  display: none;
+}
+
+.btn__menu {
+  display: none;
+}
+
+.btn__exit {
+  display: none;
+}
+
+.button--button {
+  display: none;
+}
+
+@media only screen and (max-width: 1108px) {
+  .header {
+    padding-top: 20px;
+  }
+  .nav {
+    display: none;
+  }
+  .btn {
+    display: block;
+  }
+  .btn__menu {
+    display: block;
+  }
+  .menu__exit {
+    display: none;
+  }
+  .exit__menu {
+    display: block;
+  }
+  .nav__blok {
+    display: block;
+    width: 50%;
+    height: 80%;
+    background-color: #FFBD54;
+    top: 100px;
+    right: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+    padding-right: 30px;
+    position: absolute;
+    animation: navv;
+  }
+  @keyframes navv {
+    from {
+      transform: translate(100%, 50px);
+      opacity: 0;
+    }
+    to {
+      transform: translate(0);
+      opacity: 1;
+    }
+  }
+}
+@media only screen and (max-width: 950px) {
+  .header__info {
+    display: none;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .button--button {
+    display: block;
+    border: none;
+    background-color: #FFF;
+    border-radius: 4px;
+  }
+}
+.hero {
+  padding-top: 100px;
+}
+
+.hero__info {
+  background: url(../../img/fistbac.png) no-repeat;
+  width: 1268px;
+  height: 924px;
+  background-size: contain;
+}
+
+.hero__info1 {
+  padding-top: 100px;
+  margin-left: 600px;
+}
+
+.heading {
+  max-width: 608px;
+  width: 100%;
+  color: #333;
+  font-family: "Futura PT";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+}
+.heading .hero__span {
+  color: #78C0DE;
+  font-family: "Futura PT";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.hero__text {
+  max-width: 525px;
+  width: 100%;
+  color: #949494;
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.hero__button {
+  width: 181px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background: #333;
+  border: none;
+  color: #FFF;
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }/*# sourceMappingURL=main.min.css.map */
