@@ -1,0 +1,55 @@
+.header {
+    padding-top: 5px;
+    background-color: #FFF;
+}
+
+.header__ul {
+    display: flex;
+    align-items: center;
+    gap: 106px;
+    text-align: end;
+}
+
+.header__li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.text {
+    color: #333;
+    font-family: "Roboto";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nav__item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.nav__heading {
+    color: #333;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header__info1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    background-color: #FFF;
+    border: none;
+}
