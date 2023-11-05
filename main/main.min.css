@@ -237,7 +237,8 @@ img {
   }
 }
 .hero {
-  padding-top: 100px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .hero__info {
@@ -295,4 +296,161 @@ img {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+}
+
+.line {
+  margin-top: 120px;
+  text-align: center;
+}
+
+.line__fist {
+  width: 140px;
+  height: 1px;
+  background: #DBDBDB;
+}
+
+.line__info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.line__text {
+  width: 800px;
+  color: #949494;
+  text-align: center;
+  font-family: Futura PT;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.line__text1 {
+  color: #333;
+  font-family: "Futura PT";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.cats {
+  margin-top: 191px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.cats__info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cats__info1 {
+  background-color: #FFF;
+  border-radius: 0px 5px 5px 5px;
+  background: #FFF;
+}
+
+.cats__headingg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #333;
+  /* H2 */
+  font-family: Futura PT;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 54px; /* 112.5% */
+}
+
+.cats__list {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding-top: 80px;
+}
+
+.cats__item {
+  width: 193px;
+  height: 201px;
+  border-radius: 5px;
+  border: 1px solid #F3F3F3;
+  background: #FFF;
+  text-align: center;
+}
+
+.cats__info1 {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.cats__h4 {
+  display: flex;
+  width: 333px;
+  height: 35px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  text-align: start;
+  color: #333;
+  font-family: "Futura PT";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.cats__img {
+  margin-top: 26px;
+}
+
+.cats__p {
+  text-align: start;
+  max-width: 492px;
+  width: 100%;
+  color: #949494;
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.cats__button {
+  border: none;
+  border-radius: 3px;
+  background: #FFBD54;
+  padding: 15px 40px;
+  color: #FFF;
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.cats__button1 {
+  border: none;
+  border-radius: 3px;
+  background: #333;
+  padding: 15px 40px;
+  color: #FFF;
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.div__cats {
+  display: flex;
+  align-items: center;
+  gap: 21px;
 }/*# sourceMappingURL=main.min.css.map */
