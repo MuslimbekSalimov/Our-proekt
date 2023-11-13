@@ -139,7 +139,7 @@
         gap: 33px;
         padding-right: 30px;
         position: absolute;
-        animation: navv;
+        animation: navv 1s ease-in-out;
 
         @keyframes navv {
             from {
@@ -168,5 +168,9 @@
         border: none;
         background-color: #FFF;
         border-radius: 4px ;
+    }
+
+    .button {
+        display: none;
     }
 }
