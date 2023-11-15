@@ -1,0 +1,127 @@
+.contact {
+    margin-top: 20px;
+}
+
+.contact__info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info__contact {
+    margin-top: 80px;
+}
+
+.contact__heading {
+    // width: 321px;
+    height: 58px;
+    flex-shrink: 0;
+    color: #333;
+    font-family: Futura PT;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px; 
+}
+
+.contact__text {
+    max-width: 447px;
+    width: 100%;
+    color: #949494;
+    font-family: "Futura PT";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; 
+}
+
+.contact__list {
+    display: flex;
+    // justify-content: space-between;
+    gap: 118px;
+    margin-top: 78px;
+}
+
+.contact__item {
+    display: flex;
+    flex-direction: column;
+    gap: 66px;
+}
+
+.contact__item1 {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.contact__item2 {
+    display: flex;
+    flex-direction: column;
+    gap: 76px;
+}
+
+.contact__sub {
+    color: #333;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media only screen and (max-width:1241px) {
+    .contact__info {
+        flex-direction: column;
+    }
+
+    .info__contact {
+        text-align: center;
+    }
+
+    .contact__text {
+        padding-left: 200px;
+    }
+}
+
+@media only screen and (max-width:765px) {
+    .contact__list {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact__info {
+        text-align: center;
+    }
+
+    .contact__images {
+        text-align: center;
+        margin-left: 280px;
+    }
+}
+
+@media only screen and (max-width:536px) {
+    .contact__img {
+        max-width: 300px;
+        width: 100%;
+        height: 300px;
+        margin-top: 80px
+    }
+
+    .contact__images {
+        margin-left: 120px;
+    }
+
+    .contact__text {
+        padding-left: 20px;
+    }
+}
+
+@media only screen and (max-width:355px) {
+    .contact__images {
+        margin-left: 20px;
+    }
+
+    .contact__heading {
+        font-size: 34px;
+    }
+}

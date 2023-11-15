@@ -1,0 +1,99 @@
+.lupa {
+    margin-top: 80px;
+}
+
+.lupa__maps {
+    width: 847px;
+    height: 369px;
+    flex-shrink: 0;
+}
+
+.hed {
+    text-align: center;
+}
+
+.lupa__heading {
+    color: #333;
+    font-family: "Roboto";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.lupa__img {
+    margin-left: 100px;
+}
+
+.info__lupa {
+    display: flex;
+}
+
+.lupa__img__div {
+    position: absolute;
+    top: 910px;
+    padding-left: 50px;
+}
+
+@media only screen and (max-width:1261px) {
+    .lupa__maps {
+        width: 500px;
+    }
+
+    .lupa__uy {
+        width: 500px;
+    }
+
+    .lupa__img__div {
+        width: 300px;
+        padding-top: 730px;
+    }
+}
+
+@media only screen and (max-width:981px) {
+    .lupa__maps {
+        width: 350px;
+        height: 250px;
+    }
+
+    .lupa__uy {
+        width: 280px;
+    }
+}
+
+@media only screen and (max-width:766px) {
+    .lupa__img__div {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:674px) {
+    .lupa__maps {
+        width: 200px;
+        height: 150px;
+    }
+
+    .lupa__uy {
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width:443px) {
+    .lupa__heading {
+        font-size: 18px;
+    }
+
+    .lupa__img {
+        width: 70px;
+    }
+
+    .lupa__maps {
+        width: 120px;
+        height: 100px;
+    }
+
+    .lupa__uy {
+        width: 120px;
+    }
+
+}

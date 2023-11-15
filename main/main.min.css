@@ -98,23 +98,19 @@ img {
 .footer__div {
   display: flex;
   align-items: center;
-  gap: 67px;
+  justify-content: space-around;
 }
 
-.footer__list {
+.info__footer {
   display: flex;
-  flex-direction: column;
-  gap: 3px;
-}
-
-.footer__link {
-  max-width: 10px;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .footer__div2 {
   display: flex;
   align-items: center;
-  gap: 112px;
+  justify-content: space-between;
 }
 
 .footer__link {
@@ -130,6 +126,20 @@ img {
   max-width: 100px;
 }
 
+@media only screen and (max-width: 1233px) {
+  .footer__info {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .footer__div {
+    flex-direction: column;
+  }
+  .footer__div2 {
+    flex-direction: column-reverse;
+  }
+}
 .header {
   padding-top: 5px;
   background-color: #FFF;
@@ -292,7 +302,7 @@ img {
 }
 
 .hero__info {
-  background: url(../../img/fistbac.png) no-repeat;
+  background: url(../img/fistbac.png) no-repeat;
   width: 1268px;
   height: 924px;
   background-size: contain;
@@ -348,6 +358,27 @@ img {
   line-height: normal;
 }
 
+@media only screen and (max-width: 1290px) {
+  .hero__info {
+    max-width: 968px;
+    height: 620px;
+  }
+  .hero__info1 {
+    margin-left: 440px;
+  }
+  .heading {
+    font-size: 56px;
+    width: 480px;
+  }
+  .heading .hero__span {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .hero__info {
+    width: 900px;
+  }
+}
 .line {
   margin-top: 120px;
   text-align: center;
@@ -781,4 +812,298 @@ img {
 
 .maps__img {
   margin-top: 130px;
+}
+
+.contact {
+  margin-top: 20px;
+}
+
+.contact__info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info__contact {
+  margin-top: 80px;
+}
+
+.contact__heading {
+  height: 58px;
+  flex-shrink: 0;
+  color: #333;
+  font-family: Futura PT;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+}
+
+.contact__text {
+  max-width: 447px;
+  width: 100%;
+  color: #949494;
+  font-family: "Futura PT";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.contact__list {
+  display: flex;
+  gap: 118px;
+  margin-top: 78px;
+}
+
+.contact__item {
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+}
+
+.contact__item1 {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.contact__item2 {
+  display: flex;
+  flex-direction: column;
+  gap: 76px;
+}
+
+.contact__sub {
+  color: #333;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media only screen and (max-width: 1241px) {
+  .contact__info {
+    flex-direction: column;
+  }
+  .info__contact {
+    text-align: center;
+  }
+  .contact__text {
+    padding-left: 200px;
+  }
+}
+@media only screen and (max-width: 765px) {
+  .contact__list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .contact__info {
+    text-align: center;
+  }
+  .contact__images {
+    text-align: center;
+    margin-left: 280px;
+  }
+}
+@media only screen and (max-width: 536px) {
+  .contact__img {
+    max-width: 300px;
+    width: 100%;
+    height: 300px;
+    margin-top: 80px;
+  }
+  .contact__images {
+    margin-left: 120px;
+  }
+  .contact__text {
+    padding-left: 20px;
+  }
+}
+@media only screen and (max-width: 355px) {
+  .contact__images {
+    margin-left: 20px;
+  }
+  .contact__heading {
+    font-size: 34px;
+  }
+}
+.lupa {
+  margin-top: 80px;
+}
+
+.lupa__maps {
+  width: 847px;
+  height: 369px;
+  flex-shrink: 0;
+}
+
+.hed {
+  text-align: center;
+}
+
+.lupa__heading {
+  color: #333;
+  font-family: "Roboto";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.lupa__img {
+  margin-left: 100px;
+}
+
+.info__lupa {
+  display: flex;
+}
+
+.lupa__img__div {
+  position: absolute;
+  top: 910px;
+  padding-left: 50px;
+}
+
+@media only screen and (max-width: 1261px) {
+  .lupa__maps {
+    width: 500px;
+  }
+  .lupa__uy {
+    width: 500px;
+  }
+  .lupa__img__div {
+    width: 300px;
+    padding-top: 730px;
+  }
+}
+@media only screen and (max-width: 981px) {
+  .lupa__maps {
+    width: 350px;
+    height: 250px;
+  }
+  .lupa__uy {
+    width: 280px;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .lupa__img__div {
+    display: none;
+  }
+}
+@media only screen and (max-width: 674px) {
+  .lupa__maps {
+    width: 200px;
+    height: 150px;
+  }
+  .lupa__uy {
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 443px) {
+  .lupa__heading {
+    font-size: 18px;
+  }
+  .lupa__img {
+    width: 70px;
+  }
+  .lupa__maps {
+    width: 120px;
+    height: 100px;
+  }
+  .lupa__uy {
+    width: 120px;
+  }
+}
+.main {
+  margin-top: 51px;
+}
+.main .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main__info {
+  width: 447px;
+}
+
+.main__heading {
+  color: #333;
+  font-family: "Roboto";
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  padding-bottom: 27px;
+}
+
+.main__text {
+  color: #949494;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  padding-bottom: 35px;
+}
+
+.main__button {
+  width: 201px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background: #78C0DE;
+  border: none;
+  color: #FFF;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.main__button:hover {
+  background-color: #000;
+  transition: 0.4s ease-in-out;
+}
+.main__button:focus {
+  opacity: 0.7;
+}
+
+@media only screen and (max-width: 975px) {
+  .main .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+}
+@media only screen and (max-width: 535px) {
+  .main__image {
+    max-width: 300px;
+  }
+  .main__info {
+    max-width: 300px;
+  }
+}
+.faq {
+  margin-top: 0px;
+}
+
+.faq__list {
+  background-color: #FFF;
+  width: 752px;
+  height: 139px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #F3F3F3;
+  background: #FFF;
+}
+
+.list__2 {
+  width: 752px;
+  height: 305px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #F3F3F3;
+  background: #FFF;
 }/*# sourceMappingURL=main.min.css.map */

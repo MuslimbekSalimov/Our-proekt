@@ -4,7 +4,7 @@
 }
 
 .hero__info {
-    background: url(../../img/fistbac.png) no-repeat;
+    background: url(../img/fistbac.png) no-repeat;
     width: 1268px;
     height: 924px;
     background-size:contain;
@@ -61,4 +61,30 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+@media only screen and (max-width:1290px) {
+    .hero__info {
+        max-width: 968px;
+        height: 620px;
+    }
+
+    .hero__info1 {
+        margin-left: 440px;
+    }
+
+    .heading {
+        font-size: 56px;
+        width: 480px;
+
+        &  .hero__span {
+        font-size: 50px;
+      }
+    }
+}
+
+@media only screen and (max-width:990px) {
+    .hero__info {
+        width: 900px;
+    }
 }
