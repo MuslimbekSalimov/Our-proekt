@@ -50,6 +50,10 @@
     padding-top: 80px;
 }
 
+// .list__cats {
+//     // margin-top: -55px;
+// }
+
 .cats__item {
     width: 193px;
     height: 201px;
@@ -133,4 +137,79 @@
     display: flex;
     align-items: center;
     gap: 21px;
+}
+
+@media only screen and (max-width:1300px) {
+    .cats--list1 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:976px) {
+    .cats__info1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .cats__div {
+        text-align: center;
+    }
+
+    .div__cats {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width:656px) {
+    .cats__list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cats__right {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .cats__image {
+        max-width: 350px;
+        width: 100%;
+        height: 300px;
+    }
+
+    .cats__button {
+        padding: 8px 13px;
+    }
+
+    .cats__button1 {
+        padding: 8px 13px;
+    }
+
+    .cats__h4 {
+        text-align: center;
+    }
+    .cats__p {
+        text-align: center;
+        max-width: 300px;
+    }
+}
+
+@media only screen and (max-width:332px) {
+    .cats__button {
+        padding: 3px 8px;
+    }
+
+    .cats__button1 {
+        padding: 3px 8px;
+    }
+
+    .cats__image {
+        max-width: 200px;
+        width: 100%;
+        height: 150px;
+    }
 }

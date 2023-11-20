@@ -98,3 +98,70 @@
 .maps__img {
     margin-top: 130px;
 }
+
+@media only screen and (max-width:1220px) {
+    .maps {
+        text-align: center;
+    }
+
+    .maps__info {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .maps__div {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width:540px) {
+    .maps__maps {
+        max-width: 300px;
+        height: 300px;
+    }
+
+    .maps__img {
+        max-width: 300px;
+        height: 300px;
+    }
+
+    .maps__input {
+        width: 275px;
+        height: 50px;
+    }
+
+    .maps__inputt {
+        width: 275px;
+        height: 50px;
+    }
+}
+
+@media only screen and  (max-width:440px) {
+    .maps__divv {
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+@media only screen and  (max-width:332px) {
+    .maps__maps {
+        max-width: 120px;
+    }
+
+    .maps__input {
+        max-width: 175px;
+    }
+
+    .maps__inputt {
+        max-width: 175px;
+    }
+
+    .maps__img {
+        max-width: 100px;
+        height: 100px;
+    }
+}

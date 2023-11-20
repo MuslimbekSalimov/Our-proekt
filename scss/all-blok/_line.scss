@@ -36,3 +36,9 @@
     font-weight: 500;
     line-height: normal;
 }
+
+@media only screen and (max-width:814px) {
+    .line__text {
+        width: 300px;
+    }
+}

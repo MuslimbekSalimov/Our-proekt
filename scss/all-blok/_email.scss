@@ -4,11 +4,17 @@
 
 .email__info {
     background: url(../img/emailbac.png) no-repeat;
-    width: 100%;
+    width: 1444px;
+    height: 308px;
+    top: 2304px;
+    border-radius: 5px;
+
     background-size: contain;
     // background-attachment: fixed;
     text-align: center;
+}
 
+.info__email {
     display: flex;
     align-items: center;
     gap: 33px;
@@ -71,4 +77,89 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+@media only screen and  ( max-width:1342px) {
+    .email__info {
+        width: 1000px;
+    }
+
+    .email__img {
+        width: 313px;
+        height: 281px;
+        margin-top: -30px;  
+    }
+}
+
+@media only screen and (max-width:1030px) {
+    .email {
+        text-align: center;
+    }
+
+    .email__info {
+        width: 700px;
+    }
+
+    .email__heading {
+        font-size: 20px;
+    }
+
+    .input {
+        width: 120px;
+    }
+
+    .email__button {
+        width: 88px;
+    }
+
+     .email__img {
+        width: 213px;
+        height: 181px;
+        margin-left: -150px; 
+        margin-top: -5px; 
+    } 
+
+    .email__info1 {
+        margin-top: -40px;
+    }
+}
+
+@media only screen and (max-width:725px) {
+    .email__info {
+        width: 400px;
+    }
+
+    .email__heading {
+        font-size: 10px;
+    }
+
+    .input {
+        width: 60px;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .email__button {
+        width: 48px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+     .email__img {
+        width: 90px;
+        height: 50px;
+        // margin-left: -150px; 
+        margin-top: 30px; 
+    } 
+
+    .email__info1 {
+        margin-left: -180px;
+        margin-top: -10px;
+    }
+}
+
+@media only screen and (max-width:420px) {
+    .email {
+        display: none;
+    }
 }
