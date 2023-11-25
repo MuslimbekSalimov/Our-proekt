@@ -1,0 +1,87 @@
+.modalka {
+    margin-top: 80px;
+    width: 850px;
+    height: 648px;
+    flex-shrink: 0;
+    background-color: #FFBD54;
+}
+
+.modal__nav {
+    display: block;
+}
+
+.modalka__info {
+    display: flex;
+    gap: 136px;
+}
+
+.modalka__div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+    margin-top: 80px;
+
+}
+
+.modal__img1 {
+    // position: absolute;
+    // top: 215px;
+    margin-top: -18px;
+}
+
+.modal__heading {
+    color: #333;
+    font-family: "Futura PT";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px; 
+}
+
+.modalka__heading {
+    color: #333;
+    font-family: "Futura PT";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 54px; 
+}
+
+.modal__input {
+    width: 238px;
+    height: 50px;
+    flex-shrink: 0;
+    padding-left: 40px;
+}
+
+.modal__img {
+    margin-top: 100px;
+    position: absolute;
+    margin-left: -190px;
+}
+
+.img__modal {
+    margin-top: 195px;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+    // margin-top: 60px;
+}
+
+.button__modalka {
+    width: 193px;
+    height: 50px;
+    flex-shrink: 0;
+    background: #000;
+    color: #FFF;
+    font-family: "";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

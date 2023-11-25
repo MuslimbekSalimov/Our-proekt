@@ -80,6 +80,7 @@
     align-items: center;
     background-color: #FFF;
     border: none;
+    // background-color: #FFBD54;
 }
 
 .btn {
@@ -96,9 +97,11 @@
     display: none;
 }
 
-.button--button {
-    display: none;
-}
+// .button1 {
+//     display: none;
+// }
+
+
 
 @media only screen and (max-width:1108px) {
     .header {
@@ -163,7 +166,7 @@
 }
 
 @media only screen and (max-width:400px) {
-    .button--button {
+    .button1 {
         display: block;
         border: none;
         background-color: #FFF;
